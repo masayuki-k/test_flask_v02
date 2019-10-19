@@ -1,0 +1,91 @@
+@charset "utf-8";
+
+/*================================================================
+全体的なスタイル
+================================================================*/
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color:#cccccc;
+    font-size:95%;
+    font-family:"HGS明朝B",sans-serif;
+    line-height:1.5;
+}
+
+div#page_body{
+    background-color:#ffffff;
+    width:1200px;
+    margin:10px auto;
+}
+
+/*================================================================
+サブメニュー
+================================================================*/
+div#submenu{
+    width:260px;
+    float:left;
+}
+
+
+
+/*================================================================
+メインコンテンツ
+================================================================*/
+
+div#contents{
+    width:900px;
+    float:left;
+}
+
+ul#navi_inner{
+    width:1200px;           /* メインメニュー部分の幅 */
+    height:150px;           /* メインメニュー部分の高さ */
+    margin:0px 0px;
+}
+
+#navi_inner li{
+    list-style-type:none;   /* リストマーカをなしにする */
+    display:inline;         /* リスト項目をインライン表示にする */
+    float:left;
+}
+
+#navi_inner li a{
+    background-color:navy;      /* 背景色 */
+    color:#ffffff;              /* 文字色 */
+    display:block;              /* リスト部分をブロック表示にする */
+    width:150px;                /* 幅を指定 */
+    height:30px;               /* 高さを指定 */
+    padding:0px 0px 0px 0px;   /*  */
+    text-align:center;          /* テキストをセンター揃えにする */
+    text-decoration:none;       /* リンク部分の下線を梨にする */
+}
+
+#navi_inner li a:hover{
+    background-color:#FF3366;
+}
+
+/*================================================================
+ul# checklist{
+    content: "";
+    position: absolute;
+    top: .35em;
+    left: 6px;
+    -webkit-transform: rotate(50deg);
+    -ms-transform: rotate(50deg);
+    transform: rotate(50deg);
+    width: 3px;
+    height: 7px;
+    border-right: 2px solid #8b6b4e;
+    border-bottom: 2px solid #8b6b4e;
+}
+================================================================*/
+
+/*================================================================
+フッター
+================================================================*/
+div#footer{
+    clear:both;
+}
