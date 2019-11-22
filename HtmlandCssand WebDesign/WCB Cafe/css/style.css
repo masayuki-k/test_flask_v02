@@ -313,6 +313,36 @@ input[type="submit"]{
     object-fit: cover;
 }
 
+/* 店舗情報・地図
+----------------------------------------------- */
+#location{
+    padding:4% 0;
+}
+
+#location .wrapper{
+    display:flex;
+    justify-content: space-between;
+}
+
+.location-info{
+    width:22%;
+}
+
+.location-info p{
+    padding:12px 10px;
+}
+
+.location-map{
+    width: 74%;
+}
+
+/* iframe
+----------------------------------------------- */
+iframe{
+    width:100%;
+}
+
+
 /* FOOTER
 ----------------------------------------------- */
 footer{
